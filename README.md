@@ -1,4 +1,4 @@
-# Analytical and Numerical Methods for the Black-Scholes Equation
+# Analytical and Numerical Methods for the Black–Scholes Equationin European Option Pricing
 
 Project for **Partial Differential Equations with Applications in Physics and
 Industry**.
