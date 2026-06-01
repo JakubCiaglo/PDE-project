@@ -1,5 +1,9 @@
 """Utilities for the Black-Scholes PDE project."""
 
+import sys
+
+sys.dont_write_bytecode = True
+
 from .analysis import convergence_table, error_metrics
 from .black_scholes import black_scholes_price, payoff
 from .config import BlackScholesParams, GridParams

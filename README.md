@@ -1,4 +1,4 @@
-# Analytical and Numerical Methods for the Black-Scholes Equation
+# Analytical and Numerical Methods for the Black–Scholes Equationin European Option Pricing
 
 Project for **Partial Differential Equations with Applications in Physics and
 Industry**.
@@ -72,7 +72,7 @@ from black_scholes_pde import BlackScholesParams, GridParams, solve_explicit_fd
 
 - `black_scholes.py` implements European call/put payoff functions and the exact
   Black-Scholes formula.
-- `finite_difference.py` implements an explicit finite difference solver for the
+- `finite_difference.py` implements a stable finite difference solver for the
   Black-Scholes PDE.
 - `analysis.py` contains error metrics and convergence table generation.
 - `volatility.py` estimates annualized volatility from historical prices.

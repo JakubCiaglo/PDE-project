@@ -2,8 +2,12 @@
 
 from __future__ import annotations
 
+import sys
+
 import matplotlib.pyplot as plt
 import numpy as np
+
+sys.dont_write_bytecode = True
 
 
 def plot_price_comparison(

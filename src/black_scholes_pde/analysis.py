@@ -2,12 +2,16 @@
 
 from __future__ import annotations
 
+import sys
+
 import numpy as np
 import pandas as pd
 
 from .black_scholes import black_scholes_price
 from .config import BlackScholesParams, GridParams
 from .finite_difference import solve_explicit_fd
+
+sys.dont_write_bytecode = True
 
 
 def error_metrics(numerical: np.ndarray, exact: np.ndarray) -> dict[str, float]:

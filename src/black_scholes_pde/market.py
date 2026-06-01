@@ -2,7 +2,10 @@
 
 from __future__ import annotations
 
+import sys
 from dataclasses import dataclass
+
+sys.dont_write_bytecode = True
 
 
 @dataclass(frozen=True)

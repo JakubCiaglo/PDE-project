@@ -2,8 +2,12 @@
 
 from __future__ import annotations
 
+import sys
+
 import numpy as np
 import pandas as pd
+
+sys.dont_write_bytecode = True
 
 
 def log_returns(prices: pd.Series | np.ndarray) -> pd.Series:
