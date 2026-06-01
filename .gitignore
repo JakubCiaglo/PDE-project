@@ -17,6 +17,21 @@ pip-wheel-metadata/
 # Jupyter
 .ipynb_checkpoints/
 
+# Data and generated artifacts
+data/raw/*
+data/processed/*
+reports/figures/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!reports/figures/.gitkeep
+*.csv
+*.xlsx
+*.parquet
+*.png
+*.jpg
+*.jpeg
+*.pdf
+
 # Tooling caches
 .pytest_cache/
 .mypy_cache/
@@ -29,3 +44,5 @@ Thumbs.db
 
 # Project local state
 .codex
+.env
+.env.*
