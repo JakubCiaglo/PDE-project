@@ -23,7 +23,7 @@ def plot_payoff_vs_exact(
     ax.plot(asset_grid, payoff_values, "--", label="Payoff at maturity", linewidth=2)
     ax.plot(asset_grid, exact, label="Exact Black-Scholes price", linewidth=2)
     ax.set_xlabel("Underlying asset price s")
-    ax.set_ylabel("Option value V(0,s)")
+    ax.set_ylabel("Payoff $\\Phi(s)$ / option value $V(0,s)$")
     ax.set_title(title or "Payoff and exact Black-Scholes price")
     ax.grid(True, alpha=0.3)
     ax.legend()
