@@ -18,11 +18,7 @@ pip-wheel-metadata/
 .ipynb_checkpoints/
 
 # Data and generated artifacts
-data/raw/*
-data/processed/*
 reports/figures/*
-!data/raw/.gitkeep
-!data/processed/.gitkeep
 !reports/figures/.gitkeep
 *.csv
 *.xlsx
@@ -31,6 +27,9 @@ reports/figures/*
 *.jpg
 *.jpeg
 *.pdf
+!data/btcusdt_option_snapshot.csv
+!data/btcusdt_option_chain_snapshot.csv
+!data/btcusdt_spot_history.csv
 
 # Tooling caches
 .pytest_cache/
